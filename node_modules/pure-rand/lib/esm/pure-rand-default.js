@@ -1,0 +1,12 @@
+import { generateN, skipN } from './generator/RandomGenerator.js';
+import { congruential, congruential32 } from './generator/LinearCongruential.js';
+import mersenne from './generator/MersenneTwister.js';
+import { xorshift128plus } from './generator/XorShift.js';
+import { xoroshiro128plus } from './generator/XoroShiro.js';
+import { uniformArrayIntDistribution } from './distribution/UniformArrayIntDistribution.js';
+import { uniformBigIntDistribution } from './distribution/UniformBigIntDistribution.js';
+import { uniformIntDistribution } from './distribution/UniformIntDistribution.js';
+var __type = 'module';
+var __version = '4.1.2';
+var __commitHash = '30bd5a9d5c20a1e998e489e3e00125edbc60b973';
+export { __type, __version, __commitHash, generateN, skipN, congruential, congruential32, mersenne, xorshift128plus, xoroshiro128plus, uniformArrayIntDistribution, uniformBigIntDistribution, uniformIntDistribution, };
