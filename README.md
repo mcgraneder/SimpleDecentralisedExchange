@@ -1,6 +1,9 @@
 # SimpleDecentralisedExchange
 This is my first solidity project and i have created a simple decentralised exchange that allows users to buy/sell ERC20 tokens in exchange for eth
 
+# Prereqruises
+to use this code you need to have truffle installed on your machine. To install truffle you first need to install node.js. You can install node through this link. https://nodejs.org/en/ I reccomend using v14. Once node.js is installed open your cmd or terminal and install truffle using ``npm install -g truffle``. this project was coded nod.js v14 .16.0 and using truffle version 5.3.2 so to remain consistent with me install truffle using ``npm install -g truffle@5.3.2``. Once truffle has been installed successfully follow the steps below to clone and begin using the project code
+
 # Step 1
 to use this repository for yourself there are a few steps you need to follow. Firstly create a new directory somewhere in your computer. Open your cmd or terminal in that directory. Once you do so come back to ths repository and copy the repository link. You can get it by clicking the "green" code bytton on the main branch page of this repo. Onc done type ``git clone`` into your terminal a space and then paste the repo link.
 
